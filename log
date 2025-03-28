@@ -45,3 +45,13 @@ Thu, Mar 27, 2025  9:52:11 PM:
  tests:  9|3
 total_score: 35/70
 2637b25
+Thu, Mar 27, 2025  9:56:29 PM: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:69:28: error: expected expression before 'List'
+     if (list->tail == NULL)List->tail =nuevoNodo;
+                            ^~~~
+Compilation failed
+c3d5bdf
